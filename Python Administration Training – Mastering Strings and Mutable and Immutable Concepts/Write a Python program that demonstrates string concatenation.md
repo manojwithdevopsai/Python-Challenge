@@ -52,3 +52,17 @@ length = len(text)
 print("The string is:", text)
 print("Length of the string:", length)
 ```
+
+# Write a Python program that extracts a substring from a string.
+
+```
+# Python program to extract a substring from a string
+
+text = "Hello, Python!"
+
+# Extract substring from index 7 to 12 (Python)
+substring = text[7:13]
+
+print("Original string:", text)
+print("Extracted substring:", substring)
+```
