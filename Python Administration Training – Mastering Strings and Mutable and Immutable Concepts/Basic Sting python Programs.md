@@ -140,3 +140,20 @@ if str1.lower() == str2.lower():
 else:
     print("The strings are NOT equal (case-insensitive).")
 ```
+
+## Write a Python program that checks if a string starts with a certain letter.
+
+```
+# Python program to check if a string starts with a certain letter
+
+text = "Python programming"
+letter = "P"
+
+print("String:", text)
+
+# Using startswith() method
+if text.startswith(letter):
+    print(f"The string starts with '{letter}'.")
+else:
+    print(f"The string does not start with '{letter}'.")
+```
