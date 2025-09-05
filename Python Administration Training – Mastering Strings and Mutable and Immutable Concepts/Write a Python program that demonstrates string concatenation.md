@@ -58,11 +58,21 @@ print("Length of the string:", length)
 ```
 # Python program to extract a substring from a string
 
-text = "Hello, Python!"
+text = "Hello Python!"
 
-# Extract substring from index 7 to 12 (Python)
+# Extract substring from index 6 to 11 (Python)
 substring = text[7:13]
 
 print("Original string:", text)
 print("Extracted substring:", substring)
+
+
+#Substracting sting with word level
+text = "Hello Python!"
+
+#Extract substring from index 6 to 11 (Python)
+word= text.split()
+substract_word = word[0]
+
+print("Extracted substring:", substract_word)
 ```
