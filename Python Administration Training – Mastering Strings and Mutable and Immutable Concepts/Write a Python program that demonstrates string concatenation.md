@@ -19,3 +19,22 @@ if char_to_check in text:
     print(f"The string contains the character '{char_to_check}'.")
 else:
     print(f"The string does not contain the character '{char_to_check}'.")
+
+```
+
+# Write a Python program to replace a substring in a string with another string.
+
+```
+# Python program to replace a substring in a string
+
+text = "I enjoy learning Java programming."
+old_substring = "Python"
+new_substring = "Java"
+
+# Replace the substring
+updated_text = text.replace(old_substring, new_substring)
+
+# Print results
+print("Original string:", text)
+print("Updated string:", updated_text)
+```
