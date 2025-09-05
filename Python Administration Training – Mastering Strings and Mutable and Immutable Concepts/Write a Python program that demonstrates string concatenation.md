@@ -1,4 +1,7 @@
-# Write a Python program that demonstrates string concatenation
+
+#Basic Python Programming
+
+## Write a Python program that demonstrates string concatenation
 
 ```
 a="Manoj"
@@ -8,7 +11,7 @@ c=a+" "+b
 print(c)
 ```
 
-# Write a Python program to check if a string contains a specific character
+## Write a Python program to check if a string contains a specific character
 
 ```
 text = "Manoj Savukar"
@@ -22,7 +25,7 @@ else:
 
 ```
 
-# Write a Python program to replace a substring in a string with another string.
+## Write a Python program to replace a substring in a string with another string.
 
 ```
 # Python program to replace a substring in a string
@@ -39,7 +42,7 @@ print("Original string:", text)
 print("Updated string:", updated_text)
 ```
 
-# Write a Python program to find the length of a string.
+## Write a Python program to find the length of a string.
 
 ```
 # Python program to find the length of a string
@@ -53,7 +56,7 @@ print("The string is:", text)
 print("Length of the string:", length)
 ```
 
-# Write a Python program that extracts a substring from a string.
+## Write a Python program that extracts a substring from a string.
 
 ```
 # Python program to extract a substring from a string
@@ -77,7 +80,7 @@ substract_word = word[0]
 print("Extracted substring:", substract_word)
 ```
 
-# Write a Python program that converts a string into uppercase and lowercase.
+## Write a Python program that converts a string into uppercase and lowercase.
 
 ```
 # Python program to convert a string into uppercase and lowercase
@@ -93,5 +96,24 @@ lower_text = text.lower()
 print("Original string:", text)
 print("Uppercase:", upper_text)
 print("Lowercase:", lower_text)
+```
+
+## Write a Python program that checks if a string is palindrome.
+
+```
+# Python program to check if a string is palindrome
+
+text = "madam"
+
+# Convert to lowercase to make it case-insensitive
+text = text.lower()
+
+# Reverse the string using slicing
+reversed_text = text[::-1]
+
+if text == reversed_text:
+    print(f"'{text}' is a palindrome.")
+else:
+    print(f"'{text}' is NOT a palindrome.")
 ```
 
