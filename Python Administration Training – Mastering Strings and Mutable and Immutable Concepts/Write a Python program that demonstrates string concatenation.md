@@ -76,3 +76,22 @@ substract_word = word[0]
 
 print("Extracted substring:", substract_word)
 ```
+
+# Write a Python program that converts a string into uppercase and lowercase.
+
+```
+# Python program to convert a string into uppercase and lowercase
+
+text = "Hello, Python!"
+
+# Convert to uppercase
+upper_text = text.upper()
+
+# Convert to lowercase
+lower_text = text.lower()
+
+print("Original string:", text)
+print("Uppercase:", upper_text)
+print("Lowercase:", lower_text)
+```
+
