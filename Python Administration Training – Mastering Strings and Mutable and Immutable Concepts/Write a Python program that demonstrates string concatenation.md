@@ -38,3 +38,17 @@ updated_text = text.replace(old_substring, new_substring)
 print("Original string:", text)
 print("Updated string:", updated_text)
 ```
+
+# Write a Python program to find the length of a string.
+
+```
+# Python program to find the length of a string
+
+text = "Hello, Python!"
+
+# Using len() function
+length = len(text)
+
+print("The string is:", text)
+print("Length of the string:", length)
+```
