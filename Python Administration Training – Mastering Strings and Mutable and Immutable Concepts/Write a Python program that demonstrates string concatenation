@@ -1,0 +1,5 @@
+a="Manoj"
+b="Savukar"
+
+c=a+" "+b
+print(c)
