@@ -117,3 +117,26 @@ else:
     print(f"'{text}' is NOT a palindrome.")
 ```
 
+## Write a Python program to compare two strings.
+
+```
+# Python program to compare two strings
+
+str1 = "Python"
+str2 = "python"
+
+print("String 1:", str1)
+print("String 2:", str2)
+
+# Case-sensitive comparison
+if str1 == str2:
+    print("The strings are equal (case-sensitive).")
+else:
+    print("The strings are NOT equal (case-sensitive).")
+
+# Case-insensitive comparison
+if str1.lower() == str2.lower():
+    print("The strings are equal (case-insensitive).")
+else:
+    print("The strings are NOT equal (case-insensitive).")
+```
