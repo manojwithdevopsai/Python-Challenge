@@ -73,7 +73,7 @@ print("Extracted substring:", substring)
 #Substracting sting with word level
 text = "Hello Python!"
 
-#Extract substring from index 6 to 11 (Python)
+#Extract substring word level
 word= text.split()
 substract_word = word[0]
 
@@ -157,3 +157,4 @@ if text.startswith(letter):
 else:
     print(f"The string does not start with '{letter}'.")
 ```
+
